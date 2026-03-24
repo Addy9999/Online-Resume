@@ -353,7 +353,7 @@ label {
 }
 
 .resume-section ul li::marker {
-    font-size: 0.6rem;  /* adjust this value to taste */
+    font-size: 0.8rem;  /* adjust this value to taste */
 }
 
 button {
