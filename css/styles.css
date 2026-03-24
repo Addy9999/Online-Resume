@@ -343,13 +343,17 @@ label {
 }
 
 .resume-section ul {
-    list-style-type: "⚡ "; /* Custom bullet icon */
+    list-style-type: "⚡ ";
     padding-left: 20px;
 }
 
 .resume-section ul li {
     font-size: 1.1rem;
     margin-bottom: 8px;
+}
+
+.resume-section ul li::marker {
+    font-size: 0.6rem;  /* adjust this value to taste */
 }
 
 button {
